@@ -1,0 +1,36 @@
+<resources>
+    <integer name="default_port">5000</integer>
+    <integer name="min_port">1</integer>
+    <integer name="max_port">65535</integer>
+    <integer name="udp_buffer_size">4096</integer>
+    <integer name="hello_timeout_ms">1500</integer>
+    <integer name="ack_timeout_ms">500</integer>
+    <integer name="ack_attempts">3</integer>
+    <integer name="receiver_timeout_ms">200</integer>
+    <integer name="move_send_interval_ms">16</integer>
+    <integer name="hold_repeat_initial_delay_ms">350</integer>
+    <integer name="hold_repeat_interval_ms">250</integer>
+    <integer name="fallback_screen_aspect_width">16</integer>
+    <integer name="fallback_screen_aspect_height">9</integer>
+
+    <!-- Sensor fusion and motion mapping -->
+    <integer name="madgwick_beta_milli">80</integer>
+    <integer name="motion_gain_percent">100</integer>
+
+    <!-- Click gesture (twist about the long axis) -->
+    <integer name="click_twist_threshold_deg">35</integer>
+    <integer name="click_release_deg">15</integer>
+    <integer name="click_min_interval_ms">400</integer>
+    <integer name="click_twist_sign">1</integer>
+
+    <!-- Scroll gesture (fast translation along the long axis) -->
+    <integer name="scroll_accel_threshold">6</integer>
+    <integer name="scroll_min_interval_ms">250</integer>
+    <integer name="scroll_direction_sign">1</integer>
+
+    <!-- Calibration sampling -->
+    <integer name="gyro_calibration_samples">200</integer>
+    <integer name="accel_calibration_samples_per_position">100</integer>
+    <integer name="mag_calibration_samples">600</integer>
+    <integer name="mag_calibration_min_span">40</integer>
+</resources>

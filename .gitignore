@@ -1,0 +1,77 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment files
+.env
+.env.*
+!.env.example
+*.local
+
+# Android / Gradle
+.gradle/
+**/.gradle/
+build/
+**/build/
+captures/
+.cxx/
+local.properties
+*.apk
+*.ap_
+*.aab
+*.aar
+*.dex
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Kotlin / Java build artifacts
+*.class
+out/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Python packaging and virtual environments
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local configuration and generated artifacts
+.env*
+**/.env*
+!.env.example
+!**/.env.example
+**/node_modules/
+**/build/
+**/target/
+**/obj/
+**/bin/
+**/__pycache__/
+.venv/
+.idea/
+.vs/
+*.log
+*.db
+*.sqlite3

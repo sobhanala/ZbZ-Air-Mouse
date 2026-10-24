@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Air Mouse</string>
+    <string name="connection_title">Connect to Laptop</string>
+    <string name="scan_qr_placeholder">Scan QR Code</string>
+    <string name="qr_scan_prompt">Scan the Air Mouse QR code on the laptop.</string>
+    <string name="qr_scan_cancelled">QR scan cancelled.</string>
+    <string name="qr_scan_invalid">Invalid Air Mouse QR code.</string>
+    <string name="qr_scan_ready">QR code scanned. Connecting...</string>
+    <string name="manual_connection">Manual Connection</string>
+    <string name="host_hint">Laptop IP address</string>
+    <string name="port_hint">Port</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="default_status">Enter the laptop IP and port, then connect.</string>
+    <string name="connecting_status">Connecting...</string>
+    <string name="connection_failed">Connection failed: %1$s</string>
+    <string name="connection_succeeded">Connected to %1$s:%2$d</string>
+    <string name="invalid_host">Enter a laptop IP address.</string>
+    <string name="invalid_port">Enter a port from 1 to 65535.</string>
+    <string name="connection_info">Connected to %1$s:%2$d\nLaptop screen: %3$dx%4$d\nServer sensitivity: %5$.2f</string>
+    <string name="manual_control">Manual Control</string>
+    <string name="touchpad_label">Touchpad</string>
+    <string name="left_click">Left Click</string>
+    <string name="right_click">Right Click</string>
+    <string name="scroll_up">Scroll Up</string>
+    <string name="scroll_down">Scroll Down</string>
+    <string name="action_ok">%1$s acknowledged.</string>
+    <string name="action_pending">%1$s...</string>
+    <string name="action_failed">%1$s failed: %2$s</string>
+    <string name="disconnected_status">Disconnected.</string>
+    <string name="server_disconnected_status">Laptop disconnected.</string>
+
+    <!-- Mode selection -->
+    <string name="mode_selection_title">Choose a Mode</string>
+    <string name="mode_manual">Manual Control</string>
+    <string name="mode_sensor">Air Mouse (Sensor)</string>
+    <string name="sensor_unavailable">This device is missing the accelerometer, gyroscope, or magnetometer required for sensor mode.</string>
+
+    <!-- Calibration -->
+    <string name="calibration_title">Sensor Calibration</string>
+    <string name="calibration_intro">Calibrate the sensors once for accurate, drift-free motion.</string>
+    <string name="calibration_use_saved">Use Saved Calibration</string>
+    <string name="calibration_recalibrate">Recalibrate</string>
+    <string name="calibration_start">Start Calibration</string>
+    <string name="calib_stage_gyro">Step 1 of 3: Gyroscope</string>
+    <string name="calib_stage_accel">Step 2 of 3: Accelerometer</string>
+    <string name="calib_stage_mag">Step 3 of 3: Magnetometer</string>
+    <string name="calib_gyro_instruction">Place the phone on a flat surface and keep it perfectly still.</string>
+    <string name="calib_accel_instruction">Hold the phone so %1$s, keep it still, then tap Capture.</string>
+    <string name="calib_mag_instruction">Slowly move the phone through a figure-8 in the air, rotating it in all directions.</string>
+    <string name="calib_capture">Capture Position</string>
+    <string name="calib_finish">Finish</string>
+    <string name="calib_progress">Progress: %1$d%%</string>
+    <string name="calib_saved">Calibration saved.</string>
+    <string name="accel_pos_z_up">the screen faces up</string>
+    <string name="accel_pos_z_down">the screen faces down</string>
+    <string name="accel_pos_x_up">the right edge points up</string>
+    <string name="accel_pos_x_down">the left edge points up</string>
+    <string name="accel_pos_y_up">the top edge points up</string>
+    <string name="accel_pos_y_down">the top edge points down</string>
+
+    <!-- Sensor mode -->
+    <string name="sensor_mode_title">Air Mouse</string>
+    <string name="sensor_start">Start Tracking</string>
+    <string name="sensor_stop">Stop Tracking</string>
+    <string name="sensor_status_idle">Hold the phone flat with the screen up, then start tracking.</string>
+    <string name="sensor_status_tracking">Tracking motion. Twist to click, push to scroll.</string>
+    <string name="sensor_status_stopped">Tracking stopped.</string>
+</resources>

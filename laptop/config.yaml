@@ -1,0 +1,41 @@
+server:
+  host: "0.0.0.0"
+  port: 5000
+  socketTimeoutSeconds: 0.2
+  bufferSize: 4096
+  maxMovePacketAgeMillis: 150
+  cursorUpdateIntervalMillis: 40
+  logMovePackets: false
+  preferredIpPrefixes:
+    - "192.168."
+    - "10."
+    - "172.16."
+    - "172.17."
+    - "172.18."
+    - "172.19."
+    - "172.20."
+    - "172.21."
+    - "172.22."
+    - "172.23."
+    - "172.24."
+    - "172.25."
+    - "172.26."
+    - "172.27."
+    - "172.28."
+    - "172.29."
+    - "172.30."
+    - "172.31."
+session:
+  tokenBytes: 18
+mouse:
+  defaultSensitivity: 1.0
+  minSensitivity: 0.25
+  maxSensitivity: 3.0
+  maxMoveDelta: 80.0
+  maxScrollAmount: 10
+ui:
+  windowMinWidth: 640
+  windowMinHeight: 560
+  qrSize: 220
+  eventPollMillis: 100
+  padding: 24
